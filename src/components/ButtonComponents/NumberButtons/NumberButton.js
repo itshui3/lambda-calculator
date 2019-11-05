@@ -3,7 +3,6 @@ import React from "react";
 
 const NumberButton = (props) => {
   const {num} = props;
-  console.log(props);
   if (num === "0") {
     return (
       <>

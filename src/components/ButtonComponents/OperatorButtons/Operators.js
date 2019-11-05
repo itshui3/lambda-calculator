@@ -7,7 +7,7 @@ import OperatorButton from './OperatorButton';
 
 const Operators = () => {
   const [opers] = useState(operators);
-  console.log(operators);
+
   // STEP 2 - add the imported data to state
   return (
     <div className="operators">
