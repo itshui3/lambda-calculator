@@ -1,5 +1,5 @@
 .container {
-    background-color: #c00025;
+    background-color: #00FFFF;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
@@ -71,8 +71,8 @@ button {
     border-radius: 100%;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    background-color: dodgerblue;
-    border-color: black;
+    background-color: #FF69B4;
+    border-color: #FFC0CB;
 }
 
 .zero button {

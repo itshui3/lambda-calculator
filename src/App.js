@@ -17,6 +17,9 @@ function App() {
   // the "5" button, or the operator if they click one of those buttons) and then call your setter function to update state.
   // Don't forget to pass the functions (and any additional data needed) to the components as props
   const [display, setDisplay] = useState("0");
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
+  const [compute, setCompute] = useState(0);
 
   return (
     <div className="container">
@@ -33,7 +36,7 @@ function App() {
 
         </div>
 
-        <Operators />
+        <Operators num1={num1} num2={num2} setNum1={setNum1} setNum2={setNum2} display={display} setDisplay={setDisplay} compute={compute} setCompute={setCompute} />
 
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>

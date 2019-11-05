@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {numbers} from '../../../data.js';
 
 import NumberButton from './NumberButton';
-console.log(numbers);
+
 //import any components needed
 // example of import from data.js. Note all the ../   This is how we move through folders. 
 /* 
@@ -12,7 +12,6 @@ import { numbers } from '../../../data'
 
 const Numbers = (props) => {
   const { display, setDisplay } = props;
-  console.log(display);
 
   // STEP 2 - add the imported data to state
   const [nums] = useState(numbers);
