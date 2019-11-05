@@ -57,7 +57,7 @@ Using the design file, build out your User Interface. Before you start, look thr
 - You have been given a Data.js file that contains some arrays.
 - Find a way to bring (import) the data into the necessary files, but do not change the data.
 - Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
-
+numbers, operators, specials
 **Step 2**
 Add the data to state like this:
 

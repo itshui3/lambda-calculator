@@ -11,3 +11,5 @@ const Logo = () => {
 };
 
 export default Logo;
+
+// '../../Img/Lambda_Logo_white.png'
