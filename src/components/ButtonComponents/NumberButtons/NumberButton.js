@@ -1,13 +1,22 @@
 import React from "react";
 
-
 const NumberButton = (props) => {
-  const {num} = props;
+  const { num, display, setDisplay } = props;
+  console.log(props);
+
+  const registerNum = () => {
+    if (display === "0") {
+      setDisplay(num);
+    } else {
+      setDisplay(display + num);
+    }
+  }
+
   if (num === "0") {
     return (
       <>
         <div className="btn-cont zero">
-          <button>{num}</button>
+          <button onClick={registerNum}>{num}</button>
         </div>
       </>
     )
@@ -15,7 +24,7 @@ const NumberButton = (props) => {
   return (
     <>
       <div className="btn-cont">
-        <button>{num}</button>
+        <button onClick={registerNum}>{num}</button>
       </div>
     </>
   );

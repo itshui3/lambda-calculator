@@ -4,7 +4,7 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 45px;
 }
 .display {
     margin-top: 25px;
@@ -19,6 +19,7 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: 8px;
   }
 
 .App {
@@ -70,6 +71,8 @@ button {
     border-radius: 100%;
     font-size: 1.5rem;
     margin-bottom: 10px;
+    background-color: dodgerblue;
+    border-color: black;
 }
 
 .zero button {
