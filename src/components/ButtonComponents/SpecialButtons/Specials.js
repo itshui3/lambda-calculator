@@ -4,14 +4,15 @@ import {specials} from '../../../data.js';
 import SpecialButton from './SpecialButton';
 //Import your array data to from the provided data file
 
-const Specials = () => {
+const Specials = (props) => {
   // STEP 2 - add the imported data to state
+  const { display, setDisplay } = props;
   const [specs] = useState(specials);
   return (
     <div className="specials">
       {
         specs.map( (elem, index) => (
-          <SpecialButton key={index} special={elem} />
+          <SpecialButton key={index} special={elem} display={display} setDisplay={setDisplay} />
         ))
         /* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
